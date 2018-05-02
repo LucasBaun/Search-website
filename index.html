@@ -13,8 +13,14 @@
       <div id="search">
         <i id="progressButton"></i>
         <div id="inputContainer">
-          <input id="inputField" required autofocus />
-          <label id="inputLabel"></label>
+
+          <form class="google" method="get" name="frmhot">
+            <input id="inputField" name="q" required autofocus />
+            <label id="inputLabel"></label>
+            <input hidden name="ei" value="tiPqWp7CHoWL6ATe7LH4Ag">
+            <input hidden name="gs_l" value="psy-ab.3..0i131k1j0l9.75986.76209.0.76598.3.3.0.0.0.0.98.211.3.3.0....0...1.1.64.psy-ab..0.3.211...35i39k1j0i67k1.0.3qxdPQ3VDQw">
+            <input hidden type="submit" value="Search" id="submitBtn" formaction="https://www.google.se/search">
+      </form>
           <div id="inputProgress"></div>
         </div>
       </div>
