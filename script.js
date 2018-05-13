@@ -26,7 +26,6 @@ var questions = [
     inputContainer.style.opacity = 1
     inputProgress.style.transition = ''
     inputProgress.style.width = '100%'
-    setTimeout(callback, wTime)
   }
 
   function transform(x, y) {
